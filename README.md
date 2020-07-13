@@ -1,4 +1,7 @@
-# pubyf
+# vue-pug-
+带有pugyu语法的模板
+
+# pugyf
 
 ## Project setup
 ```
@@ -17,3 +20,4 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
