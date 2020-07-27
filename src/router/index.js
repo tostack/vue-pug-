@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Echarts from '../views/echarts'
 // import Mydemo from '../views/mydemo/Mydemo.vue'
 
 Vue.use(VueRouter)
@@ -22,10 +23,12 @@ Vue.use(VueRouter)
   {
     path: '/mydemo',
     name: 'Mydemo',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import('../views/mydemo/MyDemo.vue')
+  },
+  {
+    path: '/echarts',
+    name: 'Echarts',
+    component: () => import('../views/echarts')
   }
   
 ]

@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// md5 加密
+
+
 Vue.config.productionTip = false
 
 new Vue({
